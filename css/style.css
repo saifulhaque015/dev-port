@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
 .top-orange {
     color: #FFA500;
 }
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top-corner {
@@ -36,4 +41,10 @@ section {
     border-radius: 20px;
     font-weight: 600px;
     color: white;
+}
+
+.dream-big {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
